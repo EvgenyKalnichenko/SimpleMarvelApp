@@ -1,0 +1,32 @@
+.character-card {
+  border-radius: 20px;
+  overflow: hidden;
+
+  &__container {
+    padding: 15px;
+
+    @include sm-screen {
+      padding: 5px;
+    }
+  }
+
+  &__title{
+    font-size: 20px;
+    line-height: 24px;
+
+    @include sm-screen {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  &__image {
+    @include ratio(300, 300);
+    position: relative;
+
+    img {
+      @include img-cover();
+      @include coverdiv();
+    }
+  }
+}

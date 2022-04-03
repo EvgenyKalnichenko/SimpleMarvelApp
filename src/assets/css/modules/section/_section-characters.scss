@@ -1,0 +1,18 @@
+.section-characters {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-bottom: 40px;
+  grid-gap: 40px 20px;
+
+  @include xl-screen {
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  @include lg-screen {
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  @include sm-screen {
+    grid-template-columns: repeat(2,1fr);
+  }
+}

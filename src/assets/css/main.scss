@@ -1,0 +1,24 @@
+// VARIABLES AND MIXINS
+@import './base/variables';
+@import './base/mixins';
+// DEFAULTS
+@import './base/fonts';
+@import './base/normalize';
+@import './base/common';
+@import './base/typography';
+@import './base/helpers';
+
+//COMPONENTS
+@import 'modules/btn';
+@import 'modules/loader';
+@import 'modules/character-card';
+@import 'modules/header';
+@import 'modules/collection';
+@import 'modules/not-found';
+
+//section
+@import 'modules/section/section-characters';
+@import 'modules/section/character-detail';
+
+//swiper
+@import 'node_modules/swiper/swiper';

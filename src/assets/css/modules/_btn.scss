@@ -1,0 +1,33 @@
+.btn-circle {
+  width: 56px;
+  height: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background: $accent;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn {
+  outline: none;
+  text-decoration: none;
+  color: #C1C1C1;
+  background: #FF0101FF;
+  border: 2px solid #FF0101FF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: 0.2s background-color ease-in-out, 0.2s color ease-in-out;
+  display: inline-block;
+
+  &:hover {
+    background: transparent;
+    color: #FF0101FF;
+  }
+}

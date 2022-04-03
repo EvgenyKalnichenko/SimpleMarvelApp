@@ -1,0 +1,14 @@
+.header {
+  margin-bottom: 30px;
+
+  @include sm-screen {
+    margin-bottom: 15px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

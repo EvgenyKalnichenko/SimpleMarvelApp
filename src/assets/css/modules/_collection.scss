@@ -1,0 +1,22 @@
+.collection {
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__item {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+
+  &__link {
+    color: #fff;
+    transition: 0.2s color ease-in-out;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+}
